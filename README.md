@@ -4,14 +4,42 @@
 
 ![image](code-result.png)
 
-The code as-is should run and demo show a short video as long as the Python libraries are installed correctly. Uses OpenCV 3.1.0 and Python 2.7. I had to make these fixes and recompile OpenCV so getting OpenCV installed correctly will be the biggest challenge of using this code. Use Python virtual environments and follow the directions in the first link under References below.
+The code as-is should run and demo show a short video as long as the Python libraries are installed correctly.
+
+I installed these during development though Im not using all of them:
+
+* Python 2.7.11
+* OpenCV 3.1.0
+* cycler 0.10.0
+* django 1.9.4
+* flask 0.10.1
+* image 1.4.4
+* itsdangerous 0.24
+* jinja2 2.8
+* markupsafe 0.23
+* matplotlib 1.5.1
+* numpy 1.10.4
+* pillow 3.1.1
+* pip 8.1.1
+* pyparsing 2.1.0
+* python-dateutil 2.5.0
+* pytz 2016.1
+* scikit-learn 0.17.1
+* scipy 0.17.0
+* setuptools 20.2.2
+* six 1.10.0
+* sklearn 0.0
+* werkzeug 0.11.4
+* wheel 0.29.0
+
+I had to make these fixes and recompile OpenCV so getting OpenCV installed correctly will be the biggest challenge of using this code. Use Python virtual environments and follow the directions in the first link under References below.
 
 1. [https://github.com/Itseez/opencv/issues/5874](https://github.com/Itseez/opencv/issues/5874)
 2. [https://github.com/Itseez/opencv/pull/6009/files](https://github.com/Itseez/opencv/pull/6009/files)
 
-If anybody looks at this, forgive me, this was my first Python app and I developed it in a hurry. :/
+If anybody looks at this project code then forgive me, this was my first Python app and I developed it quickly. :/
 
-The socket-server.py and socket-client.pde (Processing 3) code are meant to be used to send data from Python to Processing. The code runs but the result doesn't look very good. First run the python server file. Then run the Processing client file. Both programs wil return a window playing a video. The Processing window shows a black background with a white animated contour roughly the shape as the one animated in the Python window.
+The socket-server.py and socket-client.pde (Processing 3) code are meant to be used to send data from Python to Processing. The code runs but the result doesnt look very good. First run the python server file. Then run the Processing client file. Both programs wil return a window playing a video. The Processing window shows a black background with a white animated contour roughly the shape as the one animated in the Python window.
 
 ## System setup
 
