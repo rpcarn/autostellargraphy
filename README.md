@@ -2,7 +2,7 @@
 
 [http://www.rpcarn.com/autostellargraphy](http://www.rpcarn.com/autostellargraphy)
 
-![image](http://)
+![image](code-result.png)
 
 The code as-is should run and demo show a short video as long as the Python libraries are installed correctly. Uses OpenCV 3.1.0 and Python 2.7. I had to make these fixes and recompile OpenCV so getting OpenCV installed correctly will be the biggest challenge of using this code. Use Python virtual environments and follow the directions in the first link under References below.
 
